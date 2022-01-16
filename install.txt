@@ -1,0 +1,16 @@
+
+### MacOS
+
+> https://github.com/zbentley/dbus-osx-examples/blob/master/installation/README.md
+
+dbus is not installed by default on MacOS:
+
+```
+brew install dbus
+```
+
+configure the 'session' dbus to launch automatically:
+
+```
+brew services start dbus
+```
